@@ -1,2 +1,3 @@
 # trabajoPraIntGf
 Repositorio de Trabajo Integrador Grupo F Comision 174
+por el momento solo inclui archivos de prueba !!...
