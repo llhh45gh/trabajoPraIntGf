@@ -1,0 +1,88 @@
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+nav, footer {
+    background-color: black;
+    text-align: center;
+}
+/*
+body{
+    
+}*/
+
+h1 {
+   font-family: 'Oswald', sans-serif;
+   font-size: 45px;
+   font-weight: 700;
+   letter-spacing: 15px;
+   color:#FF9933;
+   text-transform: uppercase;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+
+h2, h2, h3, h4, h5, h6, p {
+    font-family: 'Open Sans', sans-serif;
+    text-align:left;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+   font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #AEAEAE;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+h6{
+    font-size: 10px;
+    color: #AEAEAE;
+}
+button{
+    background-color: #FF9933;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: black;
+    padding: 10px 20px 10px 20px; 
+   
+}
+
+
+#Home-Img {
+    display: flex;
+    justify-content: center;
+    }
+    
+#Imagen-2 {
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+ /*
+#NUESTROS-CURSOS {
+   
+aca dejo para hacer degradado de color, pero no me funciona; asi q lo saque del FIGMA
+la linea background attachment:fixed hace q el degradado se ajuste dinamicamente al tamaño de la pag
+lo mismo que la imagen principal
+background: linear-gradient(top #ff9933, bottom #000000);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+}
+*/
