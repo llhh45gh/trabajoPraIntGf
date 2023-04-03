@@ -33,170 +33,196 @@
     <!-- aca el link a la hoja de estilos-->
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
-  <header>
-    <!-- <h1>Hola GRUPO !!</H1>
-        <H2>El Git esta Listo !!<\h2>
-        <3>Mil Disculpas por la demora !! <\h3>
-            <h1>"GRUPO F - COMISION 174"</h1>
-    naty probando subir algo-->
-  </header>
   <body>
-    <!--Esto corresponde a la barra negra de navegacion, los items del menu de busqueda 
+    <header>
+      <!--Esto corresponde a la barra negra de navegacion, los items del menu de busqueda 
       y el ícono de la marca, claro que esta pueso nomas, hay q darle forma...
     capaz podemos agregar aqui lo de la clase 11 que se corto del bootstrap -->
-    <nav>
-      <img hight="100" src="Images/Modern-Dance-Studio-blanco-02.png" />
-      <ul>
-        <li><a href="#" class="Home">Home</a></li>
-        <li><a href="#" class="Nosotros">Nosotros</a></li>
-        <li><a href="#" class="Servicio">Servicio</a></li>
-        <li><a href="#" class="Contacto">Contacto</a></li>
-      </ul>
-    </nav>
-<!--esta el la imagen de inicio grande, habria que agregar un algo para marcar que escroleen
+      <!--INCIO NAVBAR-->
+      <nav class="menu" id="menu">
+        <img hight="100" src="Images/Modern-Dance-Studio-blanco-02.png" />
+        <ul>
+          <li><a href="#" class="Home">HOME</a></li>
+          <li><a href="#" class="Nosotros">NOSOTROS</a></li>
+          <li><a href="#" class="Servicio">SERVICIOS</a></li>
+          <li><a href="#" class="Contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--esta el la imagen de inicio grande, habria que agregar un algo para marcar que escroleen
 una linda flechita, o algo...-->
-    <div id="Home-Img">
-      <img hight="400" src="Images/Home-2.png" />
-    </div>
+    <main>
+      <div class="Home-Img">
+        <img hight="400" src="Images/Home-2.png" />
+      </div>
 
-    <div>
-      <h1>Elige como quieres moverte</h1>
-    </div>
-<!--este es el primer segmento de texto e imagen. el botón deberia ser 
+      <div>
+        <h1>Elige como quieres moverte</h1>
+      </div>
+      <!--este es el primer segmento de texto e imagen. el botón deberia ser 
   un ancla hacia el formulario, o creo mejor, hacia las imagenes donde se ven los cursos -->
-    <div id="NOSOTROS">
-      <img id="Imagen-2" src="Images/imagen-2.png" />
-      <h2>Todas las disciplinas de baile</h2>
-      <h3>Studio Dance es para Vos!</h3>
-      <p>
-        Somos un estudio de danza que nació con el objetivo de dar rienda suelta
-        a tu pasión. En STUDIO DANCE tenemos clases para todo público, sin
-        límite de edad, en diferentes estilos y niveles. Si nunca bailaste o si
-        ya tenes experiencia y queres seguir entrenando, en ambos casos hay
-        clases para vos. ¡Te esperamos, siempre en movimiento!
-      </p>
-      <button>Escríbenos!</button>
-    </div>
-<!--este es el div de los 3 iconos naranjas q en el figma estan uno al lado del otro, 
+
+      <!--Separo en dos div y cambio Id x Class-->
+      <div class="NOSOTROS">
+        <div class="nos">
+          <h2>Todas las disciplinas de baile</h2>
+          <h3>Studio Dance es para Vos!</h3>
+          <p>
+            Somos un estudio de danza que nació con el objetivo de dar rienda
+            suelta a tu pasión. En STUDIO DANCE tenemos clases para todo
+            público, sin límite de edad, en diferentes estilos y niveles. Si
+            nunca bailaste o si ya tenes experiencia y queres seguir entrenando,
+            en ambos casos hay clases para vos. ¡Te esperamos, siempre en
+            movimiento!
+          </p>
+          <button>Escríbenos!</button>
+        </div>
+        <div>
+          <img class="Imagen-2" src="Images/imagen-2.png" />
+        </div>
+        <!--agrego div-->
+      </div>
+      <!--este es el div de los 3 iconos naranjas q en el figma estan uno al lado del otro, 
   hay q ver la clase 10 donde muestra como hacer eso, seria un class y  unos alinear?-->
-    <div id="SERVICIOS">
-      <div id="titulo Servicios">
-        <h2>Todo lo que podés hacer en un solo lugar</h2>
-        <h3>Cursos para todas las edades</h3>
-      </div>
-
-      <div id="ICONOS">
-        <div id="icono-a">
-          <img id="Imagen-2" src="Images/icono-a.png" />
-          <h3>Encontrá al Profesor ideal de danza Urbana en Buenos Aires</h3>
-          <p>
-            Consultá libremente los perfiles en Buenos Aires y contactá al mas
-            indicado según tus criterios tarifas, títulos opiniones, clases de
-            Danza urbanas a domicilio o vía webcam.
-          </p>
+      <div class="SERVICIOS">
+        <div id="titulo Servicios">
+          <h2>Todo lo que podés hacer en un solo lugar</h2>
+          <h3>Cursos para todas las edades</h3>
         </div>
 
-        <div id="icono-b">
-          <img id="Imagen-2" src="Images/icono-b.png" />
-          <h3>Organizá tus clases particulares de Danza en Buenos Aires</h3>
-          <p>
-            Enviá de pedidos de clases a los profesores de todos los ritmos para
-            indicarles tus necesidades y disponibilidad. Accedé en forma
-            ilimitada a contactarlos con tu Pase Alumno Mensual
-          </p>
-        </div>
+        <div id="ICONOS">
+          <div id="icono-a">
+            <img id="Imagen-2" src="Images/icono-a.png" />
+            <h3>Encontrá al Profesor ideal de danza Urbana en Buenos Aires</h3>
+            <p>
+              Consultá libremente los perfiles en Buenos Aires y contactá al mas
+              indicado según tus criterios tarifas, títulos opiniones, clases de
+              Danza urbanas a domicilio o vía webcam.
+            </p>
+          </div>
 
-        <div id="icono3-c">
-          <img id="Imagen-2" src="Images/icono-c.png" />
-          <h3>
-            Viví nuevas experiencias, y disfrutá de tu tiempo de la mejor
-            manera.
-          </h3>
-          <p>
-            El increible Pase Alumno te da acceso ilimitado a todos los
-            profesores, coaches y Masters Class en Buenos Aires o a distancia
-            durante un mes. Todo un mes para descubrir las nuevas pasiones con
-            personas fabulosas.
-          </p>
+          <div id="icono-b">
+            <img id="Imagen-2" src="Images/icono-b.png" />
+            <h3>Organizá tus clases particulares de Danza en Buenos Aires</h3>
+            <p>
+              Enviá de pedidos de clases a los profesores de todos los ritmos
+              para indicarles tus necesidades y disponibilidad. Accedé en forma
+              ilimitada a contactarlos con tu Pase Alumno Mensual
+            </p>
+          </div>
+
+          <div id="icono3-c">
+            <img id="Imagen-2" src="Images/icono-c.png" />
+            <h3>
+              Viví nuevas experiencias, y disfrutá de tu tiempo de la mejor
+              manera.
+            </h3>
+            <p>
+              El increible Pase Alumno te da acceso ilimitado a todos los
+              profesores, coaches y Masters Class en Buenos Aires o a distancia
+              durante un mes. Todo un mes para descubrir las nuevas pasiones con
+              personas fabulosas.
+            </p>
+          </div>
         </div>
-      </div>
-<!--aca es la otra imagen, la del chico de negro con el texto debajo, 
+        <!--aca es la otra imagen, la del chico de negro con el texto debajo, 
   hay que redactar algo para poner ahi-->
-      <div id="Sin nombre">
-        
-        <img id="Imagen-1" src="Images/imagen-1.png" />
-        <h2>Todas las disciplinas de baile</h2>
-        <h3>Studio Dance es para Vos!</h3>
-        <p>
-          Somos un estudio de danza que nació con el objetivo de dar rienda
-          suelta a tu pasión. En STUDIO DANCE tenemos clases para todo público,
-          sin límite de edad, en diferentes estilos y niveles. Si nunca bailaste
-          o si ya tenes experiencia y queres seguir entrenando, en ambos casos
-          hay clases para vos. ¡Te esperamos, siempre en movimiento!
-        </p>
-        <button>Escríbenos!</button>
-      </div>
-<!-- este es el div de las tres fotos serian como los cursos q se dan, hay que inventar
+        <div id="Sin nombre">
+          <img id="Imagen-1" src="Images/imagen-1.png" />
+          <h2>Todas las disciplinas de baile</h2>
+          <h3>Studio Dance es para Vos!</h3>
+          <p>
+            Somos un estudio de danza que nació con el objetivo de dar rienda
+            suelta a tu pasión. En STUDIO DANCE tenemos clases para todo
+            público, sin límite de edad, en diferentes estilos y niveles. Si
+            nunca bailaste o si ya tenes experiencia y queres seguir entrenando,
+            en ambos casos hay clases para vos. ¡Te esperamos, siempre en
+            movimiento!
+          </p>
+          <button>Escríbenos!</button>
+        </div>
+        <!-- este es el div de las tres fotos serian como los cursos q se dan, hay que inventar
 algo de texto para poner aqui-->
-      <div id="NUESTROS-CURSOS">
-        <div id="Cuadrado-1">
-          <img id="Foto-1" src="Images/foto-1.jpg" />
-          <h3>Lorem ipsum dolor sit amet consectetur</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit conubia
-            rhoncus fermentum, litora nulla posuere et orci condimentum bibendum
-            augue pharetra
-          </p>
-        </div>
+        <div id="NUESTROS-CURSOS">
+          <div id="Cuadrado-1">
+            <img id="Foto-1" src="Images/foto-1.jpg" />
+            <h3>Lorem ipsum dolor sit amet consectetur</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit conubia
+              rhoncus fermentum, litora nulla posuere et orci condimentum
+              bibendum augue pharetra
+            </p>
+          </div>
 
-        <div id="Cuadrado-2">
-          <img id="Imagen-2" src="Images/foto-2.jpg" />
-          <h3>Lorem ipsum dolor sit amet consectetur</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit conubia
-            rhoncus fermentum, litora nulla posuere et orci condimentum bibendum
-            augue pharetra
-          </p>
-        </div>
+          <div id="Cuadrado-2">
+            <img id="Imagen-2" src="Images/foto-2.jpg" />
+            <h3>Lorem ipsum dolor sit amet consectetur</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit conubia
+              rhoncus fermentum, litora nulla posuere et orci condimentum
+              bibendum augue pharetra
+            </p>
+          </div>
 
-        <div id="Cuadrado-3">
-          <img id="Imagen-2" src="Images/foto-3.jpg" />
-          <h3>Lorem ipsum dolor sit amet consectetur</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit conubia
-            rhoncus fermentum, litora nulla posuere et orci condimentum bibendum
-            augue pharetra
-          </p>
+          <div id="Cuadrado-3">
+            <img id="Imagen-2" src="Images/foto-3.jpg" />
+            <h3>Lorem ipsum dolor sit amet consectetur</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit conubia
+              rhoncus fermentum, litora nulla posuere et orci condimentum
+              bibendum augue pharetra
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-<!-- este seria el formulario de contacto, que esta re sin nada, hya que diseñarlo
+      <!-- este seria el formulario de contacto, que esta re sin nada, hya que diseñarlo
 y claro!, despues con js hay que armar los campos!-->
-    <div id="CONTACTO">
-      <h2>Si!, Quiero saber más!</h2>
-      Nombre Apellido Email Telefono Mensaje
-      <button>Enviar</button>
-    </div>
+      <div id="CONTACTO">
+        <h2>Si!, Quiero saber más!</h2>
+        Nombre Apellido Email Telefono Mensaje
+        <button>Enviar</button>
+      </div>
+    </main>
+
+    <!--aca empieza el footer, tambien hay q armar texto inventado y armarlo... 
+  los textos los armamos primero en FIGMA, para poder copiar y pegarlos aca, mas facil-->
+    <!--Agregado de iconons redes y ubicacion-->
+    <footer class="footer">
+      <img
+        class="imgfoo"
+        height="100"
+        src="Images/Modern-Dance-Studio-blanco-02.png"
+      />
+
+      <div>
+        <div class="datosfooter">
+          <p>Avenida Alvear 1234 - CABA</p>
+          <p>Tel.: 11 2476 7985</p>
+          <p>Mail: studidance@studiodance.com</p>
+          <p class="copy">©2023 Todos los derechos reservados</p>
+        </div>
+        <li class="redes">
+          <a href="http://www.twitter.com" target="_blank"
+            ><img src="Images/icons8-twitter-48.png" alt="Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="http://www.facebook.com" target="_blank"
+            ><img src="Images/icons8-facebook-nuevo-48.png" alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="http://www.instagram.com" target="_blank"
+            ><img src="Images/icons8-instagram-48.png" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#menu"
+            ><img src="Images/m_flecha-arriba.png" alt="Ir al inicio"
+          /></a>
+        </li>
+      </div>
+    </footer>
   </body>
   <script src="script.js"></script>
-
-  <!--aca empieza el footer, tambien hay q armar texto inventado y armarlo... 
-  los textos los armamos primero en FIGMA, para poder copiar y pegarlos aca, mas facil-->
-  <footer class="footer">
-    <img hight="100" src="Images/Modern-Dance-Studio-blanco-02.png" />
-    <div>
-      <li>
-        <a href="http://www.twitter.com" target="_blank">"twitter"</a>
-      </li>
-      <li>
-        <a href="http://www.facebook.com" target="_blank">"facebook"</a>
-      </li>
-      <li>
-        <a href="http://www.instagram.com" target="_blank">"instagram"</a>
-      </li>
-      <li>
-        <a href="#Back-to-top">Back to top</a>
-      </li>
-    </div>
-  </footer>
 </html>
