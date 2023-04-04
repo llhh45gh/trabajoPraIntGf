@@ -32,6 +32,13 @@
     />
     <!-- aca el link a la hoja de estilos-->
     <link rel="stylesheet" href="stylesheet.css" />
+
+    <!--codigo para el boton enviar datos de formulario y mostrar "mensaje enviado"-->
+    <script type="text/javascript">
+      function enviar() {
+          alert("Mensaje enviado");
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -43,16 +50,16 @@
         <img hight="100" src="Images/Modern-Dance-Studio-blanco-02.png" />
         <ul>
           <li><a href="#" class="Home">HOME</a></li>
-          <li><a href="#" class="Nosotros">NOSOTROS</a></li>
-          <li><a href="#" class="Servicio">SERVICIOS</a></li>
-          <li><a href="#" class="Contacto">CONTACTO</a></li>
+          <li><a href="#NOSOTROS" class="Nosotros">NOSOTROS</a></li>
+          <li><a href="#SERVICIOS" class="Servicio">SERVICIOS</a></li>
+          <li><a href="#CONTACTO">Contacto</a></li>
         </ul>
       </nav>
     </header>
     <!--esta el la imagen de inicio grande, habria que agregar un algo para marcar que escroleen
 una linda flechita, o algo...-->
     <main>
-      <div class="Home-Img">
+      <div id="HOME" class="Home-Img">
         <img hight="400" src="Images/Home-2.png" />
       </div>
 
@@ -63,7 +70,7 @@ una linda flechita, o algo...-->
   un ancla hacia el formulario, o creo mejor, hacia las imagenes donde se ven los cursos -->
 
       <!--Separo en dos div y cambio Id x Class-->
-      <div class="NOSOTROS">
+      <div id="NOSOTROS" class="NOSOTROS">
         <div class="nos">
           <h2>Todas las disciplinas de baile</h2>
           <h3>Studio Dance es para Vos!</h3>
@@ -75,7 +82,7 @@ una linda flechita, o algo...-->
             en ambos casos hay clases para vos. ¡Te esperamos, siempre en
             movimiento!
           </p>
-          <button>Escríbenos!</button>
+          <button><a href="#CONTACTO">Escríbenos!</a></button>
         </div>
         <div>
           <img class="Imagen-2" src="Images/imagen-2.png" />
@@ -84,7 +91,7 @@ una linda flechita, o algo...-->
       </div>
       <!--este es el div de los 3 iconos naranjas q en el figma estan uno al lado del otro, 
   hay q ver la clase 10 donde muestra como hacer eso, seria un class y  unos alinear?-->
-      <div class="SERVICIOS">
+      <div id="SERVICIOS" class="SERVICIOS">
         <div id="titulo Servicios">
           <h2>Todo lo que podés hacer en un solo lugar</h2>
           <h3>Cursos para todas las edades</h3>
@@ -139,7 +146,7 @@ una linda flechita, o algo...-->
             en ambos casos hay clases para vos. ¡Te esperamos, siempre en
             movimiento!
           </p>
-          <button>Escríbenos!</button>
+          <button><a href="#CONTACTO">Escríbenos!</a></button>
         </div>
         <!-- este es el div de las tres fotos serian como los cursos q se dan, hay que inventar
 algo de texto para poner aqui-->
@@ -179,8 +186,23 @@ algo de texto para poner aqui-->
 y claro!, despues con js hay que armar los campos!-->
       <div id="CONTACTO">
         <h2>Si!, Quiero saber más!</h2>
-        Nombre Apellido Email Telefono Mensaje
-        <button>Enviar</button>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono"><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br>
+
+            <input id="boton" type="submit" value="Enviar" onclick="enviar()">
+        </form>
+        
+
       </div>
     </main>
 
