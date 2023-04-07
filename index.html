@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- esto de abajo hacer refresh de la pag automatico cada 30 seg-->
-    <meta http-equiv="refresh" content="30" />
+    <!--meta http-equiv="refresh" content="30" /-->
     <!--aqui van las palabras clave para el CEO, uso para el trabajo práctivo, no para el tema de la pag-->
     <meta name="keywords" content="HTML, CSS, JAVA, UTN, CursoUTN, TPFinal" />
     <!--aqui van las palabras de la descripcion para marcar que grupo es-->
@@ -187,13 +187,13 @@ y claro!, despues con js hay que armar los campos!-->
 <div class="CONTACTO">
   <h2>Si!, Quiero saber más!</h2>
   <form class="form" action="enviar.php" method="post">
-    <label for="nombre">Nombre:</label><br />
+    <label for="nombre"><span class="red">*</span>Nombre:</label><br />
     <input type="text" id="nombre" name="nombre" required /><br />
 
-    <label for="apellido">Apellido:</label><br />
-    <input type="text" id="apellido" name="apellido" required /><br />
+    <label for="apellido"><span class="red">*</span>Apellido:</label><br />
+    <input type="text" id="nombre" name="nombre" required /><br />
     
-    <label for="email">Correo electrónico:</label><br />
+    <label for="email"><span class="red">*</span>Correo electrónico:</label><br />
     <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" /><br />
 
     <label for="telefono">Teléfono:</label><br />
