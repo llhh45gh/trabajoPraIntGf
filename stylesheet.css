@@ -103,14 +103,19 @@ h6 {
   color: #aeaeae;
 }
 
-#boton, button{
-    background-color: #FF9933;
-    border-radius: 6px;
-    border-width: 2px;
-    border-color: black;
-    padding: 10px 20px 10px 20px;
-    margin: 10px; 
+button {
+  background-color: #ff9933;
+  border-radius: 2px;
+  border-width: 2px;
+  border-color: transparent;
+  padding: 10px 30px;
+  margin-top: 20px;
 }
+
+button:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #ff9933;
+  }
 
 .Home-Img {
   display: flex;
