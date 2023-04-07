@@ -15,6 +15,9 @@ LINK de FIGMA!!!
 https://www.figma.com/file/ksEMiYMJAeEqyncPJoz8RG/Grupo-F-UTN-team-library?node-id=839%3A3&t=N1LuQkytHZpJWLFV-1
 
 Presentación del Equipo:
+3-Javier Hugo Orlando Ponce:
+Link contacto: javierhugooponce@gmail.com
+Rol en el equipo: Colaboracin en la estructura HTML y CSS
 
 6-Maria Natalia Meira: 
 Link contacto: maria.natalia.meira@gmail.com
