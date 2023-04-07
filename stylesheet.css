@@ -253,40 +253,40 @@ font-weight: 700;
   margin-left: auto;
 }
 
-.contenedor-padre{
+
+.CajaTituloCentrado {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background-color: #000;
+  color:#ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-3-Columnas {
   padding-top: 50px;
-  padding-bottom: 20%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 200px;
+  padding-bottom: 200px;
+  padding-right: 200px;
   height: 500px;
   background-color: #000;
   color:#ffffff;
   flex-direction: row;
-  display:flex;
+  display: flex;
   gap: 5%;
-  
-  
+  justify-content: center;
 }
-.CajaA {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  background-color: #000;
-  color:#ffffff;
-  display:flex;
-}
-.Caja1 {
- 
-  top: 10%;
-}
-.Caja2 {
- 
-  top: 10%;
-}
-.Caja3 {
- 
-  top: 10%;
-}
-#Imagen-a {
-  padding: 5%;
 
+.Caja1 {
+  top: 10%;
+  padding: 10px;
+  justify-content: center;
 }
+
+.ImagenCards {
+  display: flex;
+  justify-content: center;
+}
+
+
