@@ -1,3 +1,6 @@
+body {
+  margin:0;
+}
 li {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
@@ -69,7 +72,6 @@ h1 {
 }
 
 h2,
-h2,
 h3,
 h4,
 h5,
@@ -115,6 +117,7 @@ h6 {
 .Home-Img {
   display: flex;
   justify-content: center;
+  height: 850px;
 }
 
 /*NOSOTROS*/
@@ -135,18 +138,6 @@ h6 {
   width: 70%;
 }
 
-/*
-#NUESTROS-CURSOS {
-   
-aca dejo para hacer degradado de color, pero no me funciona; asi q lo saque del FIGMA
-la linea background attachment:fixed hace q el degradado se ajuste dinamicamente al tamaño de la pag
-lo mismo que la imagen principal
-background: linear-gradient(top #ff9933, bottom #000000);
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    
-}
-*/
 /*FOOTER comienzo */
 
 .footer {
@@ -168,4 +159,60 @@ background: linear-gradient(top #ff9933, bottom #000000);
 
 .copy {
   font-size: 10px;
+}
+
+.flecha-arriba {
+  height: 12px;
+  margin-bottom: 10px;
+ 
+
+}
+
+/*FOOTER fin */
+
+.Home-subtitulo {
+color: #ff9933;
+text-transform: uppercase;
+font-weight: 700;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contenedor-padre{
+  padding-top: 50px;
+  padding-bottom: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 500px;
+  background-color: #000;
+  color:#ffffff;
+  flex-direction: row;
+  display:flex;
+  gap: 5%;
+  
+  
+}
+.CajaA {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #000;
+  color:#ffffff;
+  display:flex;
+}
+.Caja1 {
+ 
+  top: 10%;
+}
+.Caja2 {
+ 
+  top: 10%;
+}
+.Caja3 {
+ 
+  top: 10%;
+}
+#Imagen-a {
+  padding: 5%;
+
 }
