@@ -138,6 +138,62 @@ h6 {
   width: 70%;
 }
 
+/* FORMULARIO */
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  background-color: #EAEAEA;
+  
+}
+
+input[type="submit"] {
+  background-color: #ff9933;
+  padding: 10px 30px;
+  border-radius: 2px ;
+  margin-bottom: 20px;
+  border: transparent;
+}
+
+.CONTACTO {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.form {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.campo {
+  font-size: 10px;
+  color: red;
+}
+
+input[type="submit"]:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #ff9933;
+}
+
+form input:required {
+  content:"*";
+}
+
+
+/*
+#NUESTROS-CURSOS {
+   
+aca dejo para hacer degradado de color, pero no me funciona; asi q lo saque del FIGMA
+la linea background attachment:fixed hace q el degradado se ajuste dinamicamente al tamaño de la pag
+lo mismo que la imagen principal
+background: linear-gradient(top #ff9933, bottom #000000);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+}
+*/
 /*FOOTER comienzo */
 
 .footer {
