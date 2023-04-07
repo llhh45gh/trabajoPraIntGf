@@ -289,4 +289,34 @@ font-weight: 700;
   justify-content: center;
 }
 
+.TextoCards {
+  padding-top: 25px;
+}
+
+.CajaTituloCentrado2 {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor-3-Columnas-2 {
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-bottom: 200px;
+  padding-right: 200px;
+  height: 500px;
+  flex-direction: row;
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+}
+.ImagenCards2 {
+  display: flex;
+  justify-content: flex-start;
+  /*averiguar como hacer 100% q 
+  ocupe la imagen el ancho de caja
+  tambien investigar si se puede algun efecto a la imagen
+  que al pasar el mouse se haga como un zoom o algo*/
+}
 
