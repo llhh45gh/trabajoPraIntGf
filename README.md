@@ -18,4 +18,4 @@ Presentación del Equipo:
 
 6-Maria Natalia Meira: 
 Link contacto: maria.natalia.meira@gmail.com
-Rol en el equipo: Armado de bocetos en Figma junto al grupo, colaboracion en estructura HTML y CSS. PDF con presentacion del material, tranajo en su mayoria siguiendo la parte gráfica.
+Rol en el equipo: Armado de bocetos en Figma junto al grupo, colaboracion en estructura HTML y CSS. PDF con presentacion del material, trabajo en su mayoria siguiendo la parte gráfica.
