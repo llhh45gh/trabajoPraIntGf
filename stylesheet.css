@@ -182,10 +182,9 @@ input[type="submit"]:hover {
   border: 2px solid #ff9933;
 }
 
-form input:required {
-  content:"*";
+.red {
+  color: red;
 }
-
 
 /*
 #NUESTROS-CURSOS {
