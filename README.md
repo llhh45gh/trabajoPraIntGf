@@ -18,7 +18,7 @@ Presentación del Equipo:
 
 3-Javier Hugo Orlando Ponce:
 Link contacto: javierhugooponce@gmail.com
-Rol en el equipo: Colaboracin en la estructura HTML y CSS
+Rol en el equipo: Colaboración en la estructura HTML y CSS
 
 6-Maria Natalia Meira: 
 Link contacto: maria.natalia.meira@gmail.com
