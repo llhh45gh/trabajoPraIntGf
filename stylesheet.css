@@ -125,11 +125,11 @@ button:hover {
   height: 850px;
 }
 
-/*NOSOTROS*/
+/*NOSOTROS-viejo
 .Imagen-2 {
   width: 500px;
   float: right;
-  /*height: 50%;*/
+  height: 50%;
 }
 
 .NOSOTROS {
@@ -142,7 +142,7 @@ button:hover {
 .nos {
   width: 70%;
 }
-
+*/
 /* FORMULARIO */
 input[type="text"], input[type="email"], input[type="tel"], textarea {
   width: 70%;
@@ -321,13 +321,25 @@ font-weight: 700;
 
 /*Beneficios y nosotrso pero al reves)*/
 
-
+.ImagenCards2-Columnas-der {
+  height: 700px;
+  display: flex;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  flex-direction:row;
+  gap:50px;
+  }
+  
 .ImagenCards2-Columnas {
 height: 700px;
 display: flex;
 padding-top: 100px;
 padding-left: 200px;
-padding-right: 100px;
+padding-right: 200px;
+padding-bottom: 100px;
+gap:50px;
 flex-direction: row-reverse;
 }
 
