@@ -319,3 +319,24 @@ font-weight: 700;
   que al pasar el mouse se haga como un zoom o algo*/
 }
 
+/*Beneficios y nosotrso pero al reves)*/
+
+
+.ImagenCards2-Columnas {
+height: 700px;
+display: flex;
+padding-top: 100px;
+padding-left: 200px;
+padding-right: 100px;
+flex-direction: row-reverse;
+}
+
+.TextoCards2-Columnas {
+  padding-top: 200px;
+
+}
+
+.TextoCards2-Columnas-p {
+width: 400px;
+
+}
