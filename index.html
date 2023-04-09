@@ -70,6 +70,141 @@ una linda flechita, o algo...-->
         -->
         <h2 class="Home-subtitulo">Elige como quieres moverte</h2>
       </div>
+
+      <!-- ventana jazz -->
+    <div id="danza-jazz-info" class="ventana">
+      <div class="ventana-content">
+        <span class="cerrar">Cerrar</span>
+        <h2 id="danza-jazz">Danza Jazz</h2>
+        <p>
+          El Jazz Dance es un estilo de baile que se originó en Estados Unidos a
+          principios del siglo XX. Es una forma de baile que se basa en la
+          improvisación y la interpretación personal de la música. El Jazz Dance
+          es un estilo de baile muy energético y dinámico que se caracteriza por
+          su ritmo acelerado y su estilo libre.
+        </p>
+        <img class="bailes" src="./Images/danza-jazz.jpg" alt="Danza Jazz" />
+      </div>
+    </div>
+
+    <!-- ventana ritmo urbano -->
+    <div id="ritmo-urbano-info" class="ventana">
+      <div class="ventana-content">
+        <span class="cerrar">Cerrar</span>
+        <h2 id="ritmo-urbano">Ritmos Urbanos</h2>
+        <p>
+          Los ritmos urbanos son un conjunto de estilos de música y baile que se
+          originaron en las ciudades. Estos estilos se caracterizan por su ritmo
+          acelerado y su estilo libre. Los ritmos urbanos incluyen estilos como
+          el hip hop, el breakdance, el funk y el street dance, entre otros.
+        </p>
+        <img
+          class="bailes"
+          src="./Images/ritmo-urbano.jpg"
+          alt="Ritmo Urbano"
+        />
+      </div>
+    </div>
+
+    <!-- ballet -->
+    <div id="ballet-info" class="ventana">
+      <div class="ventana-content">
+        <span class="cerrar">Cerrar</span>
+        <h2 id="ballet">Ballet</h2>
+        <p>
+          El ballet es un estilo de danza clásica que se originó en la corte
+          italiana en el siglo XV. Es un estilo de danza muy elegante y refinado
+          que se caracteriza por su precisión y su técnica. El ballet es una
+          forma de arte muy exigente que requiere una gran disciplina y
+          dedicación por parte de los bailarines.
+        </p>
+        <img class="bailes" src="./Images/ballet.jpg" alt="Ballet" />
+      </div>
+    </div>
+
+    <!-- jazz contemporaneo -->
+    <div id="jazz-contemporaneo-info" class="ventana">
+      <div class="ventana-content">
+        <span class="cerrar">Cerrar</span>
+        <h2 id="jazz-contemporáneo">Jazz Contemporáneo</h2>
+        <p>
+          El jazz contemporáneo es un estilo de danza que combina elementos del
+          jazz tradicional con otros estilos de danza como el ballet y la danza
+          contemporánea. Es un estilo de danza muy expresivo y emocional que se
+          caracteriza por su improvisación y su interpretación personal de la
+          música.
+        </p>
+        <img
+          class="bailes"
+          src="./Images/jazz-contemporaneo.jpg"
+          alt="Jazz Contemporaneo"
+        />
+      </div>
+    </div>
+
+    <!-- principiantes-->
+    <div id="principiantes-info" class="ventana">
+      <div class="ventana-content">
+        <span class="cerrar">Cerrar</span>
+        <h2 id="principiantes">Principiantes</h2>
+        <p>
+          Si eres nuevo en el mundo del baile, esta es la disciplina perfecta
+          para ti. En nuestras clases de principiantes, aprenderás los
+          fundamentos del baile y desarrollarás las habilidades necesarias para
+          progresar en cualquier estilo de danza que elijas.
+        </p>
+        <img
+          class="bailes"
+          src="./Images/principiantes.jpg"
+          alt="Principiantes"
+        />
+      </div>
+    </div>
+
+    <!-- Entrenamientos -->
+    <div id="entrenamientos-info" class="ventana">
+      <div class="ventana-content">
+        <span class="cerrar">Cerrar</span>
+        <h2 id="entrenamientos">Entrenamientos</h2>
+        <p>
+          Nuestros entrenamientos están diseñados para ayudarte a mejorar tu
+          técnica y tu estado físico para que puedas alcanzar tus metas de
+          baile. En nuestros entrenamientos, trabajarás en tu fuerza,
+          flexibilidad y resistencia para mejorar tu rendimiento en cualquier
+          estilo de danza que elijas.
+        </p>
+        <img
+          class="bailes"
+          src="./Images/entrenamientos.jpg"
+          alt="Entrenamientos"
+        />
+      </div>
+    </div>
+
+    <!-- Desplegable -->
+    <div class="desplegable">
+      <button class="desple_btn">ESTILOS DE BAILES</button>
+      <div class="desplegable-content">
+        <!-- <a href="#">Danza Jazz</a> -->
+        <a href="#" onclick="openVentana('danza-jazz-info')">Danza Jazz</a>
+        <a href="#" onclick="openVentana('ritmo-urbano-info')"
+          >Ritmos Urbanos</a
+        >
+        <a href="#" onclick="openVentana('ballet-info')">Ballet</a>
+        <a href="#" onclick="openVentana('jazz-contemporaneo-info')"
+          >Jazz Contemporáneo</a
+        >
+        <a href="#" onclick="openVentana('principiantes-info')"
+          >Principiantes</a
+        >
+        <a href="#" onclick="openVentana('entrenamientos-info')"
+          >Entrenamientos</a
+        >
+      </div>
+    </div>
+    
+    <!-- fin menu ventana desplegable -->
+
       <!--este es el primer segmento de texto e imagen. el botón deberia ser 
   un ancla hacia el formulario, o creo mejor, hacia las imagenes donde se ven los cursos -->
 
@@ -323,5 +458,5 @@ y claro!, despues con js hay que armar los campos!-->
       </div>
     </footer>
   </body>
-  <script src="script.js"></script>
+  <script src="./script_js/script.js"></script>
 </html>
