@@ -27,3 +27,7 @@ Rol en el equipo: Armado de bocetos en Figma junto al grupo, colaboracion en est
 4-Luis Angel Heredia:
 Link contacto: llhheredia@gmail.com
 Rol en el Equipo: Creacion de Repositorio en GitHub, colaboracion en Estructura HTML, CSS y JS, lineas de codigo de form Web...y lo que el eq. requiera en este sentido.
+
+5 Miriam Beatriz Ojeda:
+Link de contacto: estrellita.figueroa@gmail.com
+Rol en el equipo: colaboracion en HTML, Css... Formulario y menu desplegable incluyendo JS... Algunas incorporaciones de imágenes...
