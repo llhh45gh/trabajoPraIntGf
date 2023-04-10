@@ -244,7 +244,21 @@ margin: 0 auto;
 }
 */
 /* FORMULARIO */
-input[type="text"], input[type="email"], input[type="tel"], textarea {
+
+form {
+  margin-bottom: 20px;
+}
+
+#step-2 {
+  display: none;
+}
+
+#summary {
+  border: 1px solid #811010;
+  padding: 10px;
+}
+
+/*input[type="text"], input[type="email"], input[type="tel"], textarea {
   width: 70%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -261,7 +275,7 @@ input[type="submit"] {
   border-radius: 2px ;
   margin-bottom: 20px;
   border: transparent;
-}
+}*/
 
 .CONTACTO {
   margin-left: 200px;

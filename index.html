@@ -8,6 +8,11 @@
     <!--meta http-equiv="refresh" content="30" /-->
     <!--aqui van las palabras clave para el CEO, uso para el trabajo práctivo, no para el tema de la pag-->
     <meta name="keywords" content="HTML, CSS, JAVA, UTN, CursoUTN, TPFinal" />
+    <!--<meta charset="utf-8">-->
+        <title>Grupo F - Comision 174</title>
+        <link rel="stylesheet" href="styles.css">
+      
+
     <!--aqui van las palabras de la descripcion para marcar que grupo es-->
     <meta
       name="description"
@@ -394,7 +399,36 @@ una linda flechita, o algo...-->
 y claro!, despues con js hay que armar los campos!-->
 <div id="CONTACTO" class="CONTACTO">
   <h2>Si!, Quiero saber más!</h2>
-  <form class="form" action="enviar.php" method="post">
+
+  <h3>Formulario de Clientes</h3>
+    
+  <form id="step-1">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+    
+   <label for="lastname">Apellido:</label>
+    <input type="text" id="lastname" name="lastname" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <button type="button" id="next-btn">Siguiente</button>
+  </form>
+
+  <form id="step-2">
+    <p>Resumen:</p>
+    <div id="summary"></div>
+    
+    <input id="boton" type="submit" value="Enviar" onclick="enviar()" />
+  
+
+  </form>
+  
+  <script src="script.js"></script>
+
+  
+
+  <!--<form class="form" action="enviar.php" method="post">
     <label for="nombre"><span class="red">*</span>Nombre:</label><br />
     <input type="text" id="nombre" name="nombre" required /><br />
 
@@ -412,9 +446,11 @@ y claro!, despues con js hay que armar los campos!-->
     <br/><br/>
     
     <input id="boton" type="submit" value="Enviar" onclick="enviar()" />
-  </form>
+  </form>-->
+
+
 </div>
-    </main>
+   <!---- </main>-->
 
     <!--aca empieza el footer, tambien hay q armar texto inventado y armarlo... 
   los textos los armamos primero en FIGMA, para poder copiar y pegarlos aca, mas facil-->
