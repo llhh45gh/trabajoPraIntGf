@@ -23,3 +23,7 @@ Rol en el equipo: Colaboración en la estructura HTML y CSS
 6-Maria Natalia Meira: 
 Link contacto: maria.natalia.meira@gmail.com
 Rol en el equipo: Armado de bocetos en Figma junto al grupo, colaboracion en estructura HTML y CSS. PDF con presentacion del material, trabajo en su mayoria siguiendo la parte gráfica.
+
+4-Luis Angel Heredia:
+Link contacto: llhheredia@gmail.com
+Rol en el Equipo: Creacion de Repositorio en GitHub, colaboracion en Estructura HTML, CSS y JS, lineas de codigo de form Web...y lo que el eq. requiera en este sentido.
