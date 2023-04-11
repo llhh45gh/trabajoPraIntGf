@@ -1,37 +1,62 @@
 //inicio script de ventana flotante//
 function openVentana(ventanaId) {
-    const ventana = document.getElementById(ventanaId);
-    const cerrarBtn = ventana.querySelector(".cerrar");
-    ventana.style.display = "block";
-    cerrarBtn.onclick = function() {
+  const ventana = document.getElementById(ventanaId);
+  const cerrarBtn = ventana.querySelector(".cerrar");
+    // Guardar la posición actual de la ventana
+  const posicionActual = window.scrollY;
+  
+  ventana.style.display = "block";
+  cerrarBtn.onclick = function() {
+    ventana.style.display = "none";
+    
+    // Restaurar la posición anterior de la ventana
+    window.scrollTo(0, posicionActual);
+  }
+  window.onclick = function(event) {
+    if (event.target == ventana) {
       ventana.style.display = "none";
-    }
-    window.onclick = function(event) {
-      if (event.target == ventana) {
-        ventana.style.display = "none";
-      }
+      
+      // Restaurar la posición anterior de la ventana
+      window.scrollTo(0, posicionActual);
     }
   }
+}
+
 //fin ventana flotante//  
 
-//inicio form Web...//
-const nextBtn = document.querySelector("#next-btn");
-const backBtn = document.querySelector("#back-btn");
-const step1 = document.querySelector("#step-1");
-const step2 = document.querySelector("#step-2");
-const summary = document.querySelector("#summary");
+function enviar() {
+  // Obtener los valores de los campos del formulario
+  const nombre = document.getElementById("nombre").value;
+  const apellido = document.getElementById("apellido").value;
+  const email = document.getElementById("email").value;
+  const telefono = document.getElementById("telefono").value;
+  const mensaje = document.getElementById("mensaje").value;
 
-//agregar evento onclick al botón siguiente
-nextBtn.addEventListener("click", function() {
-  // recopilar datos del primer paso
-  let name = document.querySelector("#name").value;
-  let lastname = document.querySelector("#lastname").value;
-  let email = document.querySelector("#email").value;
-  
-  // mostrar resumen en el segundo paso
-  summary.innerHTML = `Nombre: ${name}<br> Apellido: ${lastname}<br> Email: ${email}`;
-  
-  // ocultar el primer paso y mostrar el segundo paso
-  step1.style.display = "none";
-  step2.style.display = "block";
-});
+  // Configurar los parámetros para la plantilla de correo electrónico
+  const parametros = {
+    nombre: nombre,
+    apellido: apellido,
+    email: email,
+    telefono: telefono,
+    mensaje: mensaje
+  };
+
+  // Enviar el correo electrónico a través de EmailJS
+  emailjs.send("service_1ix920e", "template_2ajezqw", parametros )
+    .then(function(response) {
+      alert("El correo electrónico se ha enviado con éxito. Nos contactaremos a la brevedad!");
+      // Limpiar los campos del formulario después de enviar el correo electrónico
+      document.getElementById("nombre").value = "";
+      document.getElementById("apellido").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("telefono").value = "";
+      document.getElementById("mensaje").value = "";
+    }, function(error) {
+      alert("Ha ocurrido un error al enviar el correo electrónico. Por favor, inténtalo de nuevo más tarde.");
+    });
+}
+
+
+
+
+

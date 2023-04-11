@@ -153,6 +153,7 @@ button:hover {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
+  font-family: "Open Sans", sans-serif;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -206,8 +207,9 @@ margin: 0 auto;
 
 .cerrar {
   color: white;
+  font-family: "Open Sans", sans-serif;
   background-color: orange;
-  padding: 5px 5px;
+  padding: 5px 10px;
   float: right;
   font-size: 15px;
   font-weight: bold;
@@ -249,16 +251,7 @@ form {
   margin-bottom: 20px;
 }
 
-#step-2 {
-  display: none;
-}
-
-#summary {
-  border: 1px solid #811010;
-  padding: 10px;
-}
-
-/*input[type="text"], input[type="email"], input[type="tel"], textarea {
+  input[type="text"], input[type="email"], input[type="tel"], textarea {
   width: 70%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -269,16 +262,16 @@ form {
   
 }
 
-input[type="submit"] {
+input[type="button"] {
   background-color: #ff9933;
   padding: 10px 30px;
-  border-radius: 2px ;
+  border-radius: 5px ;
   margin-bottom: 20px;
   border: transparent;
-}*/
+}
 
 .CONTACTO {
-  margin-left: 200px;
+  margin-left: 250px;
   margin-top: 100px;
 }
 .form {
@@ -292,21 +285,22 @@ input[type="submit"] {
   color: red;
 }
 
-input[type="submit"]:hover {
-  background-color: #FFFFFF;
-  border: 2px solid #ff9933;
+input[type="button"]:hover {
+  background-color: #f5c105;
+  border: 1px solid #ff9933;
+  color: #0f0e0e;
 }
 
 .red {
   color: red;
 }
 
-/*
+/* */
 #NUESTROS-CURSOS {
    
-aca dejo para hacer degradado de color, pero no me funciona; asi q lo saque del FIGMA
+/*aca dejo para hacer degradado de color, pero no me funciona; asi q lo saque del FIGMA
 la linea background attachment:fixed hace q el degradado se ajuste dinamicamente al tamaño de la pag
-lo mismo que la imagen principal
+lo mismo que la imagen principal*/
 background: linear-gradient(top #ff9933, bottom #000000);
     background-repeat: no-repeat;
     background-attachment:fixed;

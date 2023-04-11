@@ -10,7 +10,7 @@
     <meta name="keywords" content="HTML, CSS, JAVA, UTN, CursoUTN, TPFinal" />
     <!--<meta charset="utf-8">-->
         <title>Grupo F - Comision 174</title>
-        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="styles.css"> -->
       
 
     <!--aqui van las palabras de la descripcion para marcar que grupo es-->
@@ -37,14 +37,19 @@
     />
     <!-- aca el link a la hoja de estilos-->
     <link rel="stylesheet" href="stylesheet.css" />
-
-    <!--codigo para el boton enviar datos de formulario y mostrar "mensaje enviado"-->
-    <script type="text/javascript">
-      function enviar() {
-          alert("Mensaje enviado");
-      }
+    <!-- para enviar datos a traves de EmailJS-->
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script>
+      (function(){
+      emailjs.init('3s-UuRoTpmNZFFBHa');
+      })();
     </script>
+
+
+   
   </head>
+
+
   <body>
     <header>
       <!--Esto corresponde a la barra negra de navegacion, los items del menu de busqueda 
@@ -79,7 +84,7 @@ una linda flechita, o algo...-->
       <!-- ventana jazz -->
     <div id="danza-jazz-info" class="ventana">
       <div class="ventana-content">
-        <span class="cerrar">Cerrar</span>
+        <span class="cerrar">X</span>
         <h2 id="danza-jazz">Danza Jazz</h2>
         <p>
           El Jazz Dance es un estilo de baile que se originó en Estados Unidos a
@@ -95,7 +100,7 @@ una linda flechita, o algo...-->
     <!-- ventana ritmo urbano -->
     <div id="ritmo-urbano-info" class="ventana">
       <div class="ventana-content">
-        <span class="cerrar">Cerrar</span>
+        <span class="cerrar">X</span>
         <h2 id="ritmo-urbano">Ritmos Urbanos</h2>
         <p>
           Los ritmos urbanos son un conjunto de estilos de música y baile que se
@@ -114,7 +119,7 @@ una linda flechita, o algo...-->
     <!-- ballet -->
     <div id="ballet-info" class="ventana">
       <div class="ventana-content">
-        <span class="cerrar">Cerrar</span>
+        <span class="cerrar">X</span>
         <h2 id="ballet">Ballet</h2>
         <p>
           El ballet es un estilo de danza clásica que se originó en la corte
@@ -130,7 +135,7 @@ una linda flechita, o algo...-->
     <!-- jazz contemporaneo -->
     <div id="jazz-contemporaneo-info" class="ventana">
       <div class="ventana-content">
-        <span class="cerrar">Cerrar</span>
+        <span class="cerrar">X</span>
         <h2 id="jazz-contemporáneo">Jazz Contemporáneo</h2>
         <p>
           El jazz contemporáneo es un estilo de danza que combina elementos del
@@ -150,7 +155,7 @@ una linda flechita, o algo...-->
     <!-- principiantes-->
     <div id="principiantes-info" class="ventana">
       <div class="ventana-content">
-        <span class="cerrar">Cerrar</span>
+        <span class="cerrar">X</span>
         <h2 id="principiantes">Principiantes</h2>
         <p>
           Si eres nuevo en el mundo del baile, esta es la disciplina perfecta
@@ -169,7 +174,7 @@ una linda flechita, o algo...-->
     <!-- Entrenamientos -->
     <div id="entrenamientos-info" class="ventana">
       <div class="ventana-content">
-        <span class="cerrar">Cerrar</span>
+        <span class="cerrar">X</span>
         <h2 id="entrenamientos">Entrenamientos</h2>
         <p>
           Nuestros entrenamientos están diseñados para ayudarte a mejorar tu
@@ -395,61 +400,36 @@ una linda flechita, o algo...-->
             </div>
           </div>
      
-      <!-- este seria el formulario de contacto, que esta re sin nada, hya que diseñarlo
-y claro!, despues con js hay que armar los campos!-->
-<div id="CONTACTO" class="CONTACTO">
-  <h2>Si!, Quiero saber más!</h2>
+      <!-- Comienza formulario de contacto corregido 11/04/2023!-->
+            <!--Ya esta perfecto el formulario,
+               lo probé y funciona, me llegan los mails, 
+               creé una cuenta en "EmailJS"-->
 
-  <h3>Formulario de Clientes</h3>
-    
-  <form id="step-1">
-    <label for="name">Nombre:</label>
-    <input type="text" id="name" name="name" required>
-    
-   <label for="lastname">Apellido:</label>
-    <input type="text" id="lastname" name="lastname" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    
-    <button type="button" id="next-btn">Siguiente</button>
-  </form>
-
-  <form id="step-2">
-    <p>Resumen:</p>
-    <div id="summary"></div>
-    
-    <input id="boton" type="submit" value="Enviar" onclick="enviar()" />
-  
-
-  </form>
-  
-  <script src="script.js"></script>
-
-  
-
-  <!--<form class="form" action="enviar.php" method="post">
-    <label for="nombre"><span class="red">*</span>Nombre:</label><br />
-    <input type="text" id="nombre" name="nombre" required /><br />
-
-    <label for="apellido"><span class="red">*</span>Apellido:</label><br />
-    <input type="text" id="nombre" name="nombre" required /><br />
-    
-    <label for="email"><span class="red">*</span>Correo electrónico:</label><br />
-    <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" /><br />
-
-    <label for="telefono">Teléfono:</label><br />
-    <input type="tel" id="telefono" name="telefono" placeholder="(Código de área) Número de Teléfono"/><br />
-
-    <label for="mensaje">Mensaje:</label><br />
-    <textarea id="mensaje" name="mensaje"></textarea><p class="campo">*Campos Obligatorios</p><br />
-    <br/><br/>
-    
-    <input id="boton" type="submit" value="Enviar" onclick="enviar()" />
-  </form>-->
-
-
-</div>
+      <div id="CONTACTO" class="CONTACTO">
+        <h2>Si!, Quiero saber más!</h2>
+          
+          <form class="form">
+          <label for="nombre"><span class="red">*</span>Nombre:</label><br />
+          <input type="text" id="nombre" name="nombre" required /><br />
+      
+          <label for="apellido"><span class="red">*</span>Apellido:</label><br />
+          <input type="text" id="apellido" name="apellido" required /><br />
+          
+          <label for="email"><span class="red">*</span>Correo electrónico:</label><br />
+          <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" /><br />
+      
+          <label for="telefono">Teléfono:</label><br />
+          <input type="tel" id="telefono" name="telefono" placeholder="(Código de área) Número de Teléfono"/><br />
+      
+          <label for="mensaje">Mensaje:</label><br />
+          <textarea id="mensaje" name="mensaje"></textarea><p class="campo">*Campos Obligatorios</p><br />
+          <br/><br/>
+          
+          <input id="boton" type="button" value="Enviar" onclick="enviar()" />
+      
+        </form>
+      </div>
+      
    <!---- </main>-->
 
     <!--aca empieza el footer, tambien hay q armar texto inventado y armarlo... 
