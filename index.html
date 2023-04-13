@@ -4,38 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- esto de abajo hacer refresh de la pag automatico cada 30 seg-->
     <!--meta http-equiv="refresh" content="30" /-->
-    <!--aqui van las palabras clave para el CEO, uso para el trabajo práctivo, no para el tema de la pag-->
-    <meta name="keywords" content="HTML, CSS, JAVA, UTN, CursoUTN, TPFinal" />
-    <!--<meta charset="utf-8">-->
-        <title>Grupo F - Comision 174</title>
-        <!-- <link rel="stylesheet" href="styles.css"> -->
-      
-
-    <!--aqui van las palabras de la descripcion para marcar que grupo es-->
-    <meta
-      name="description"
-      content="Este es el TP Integrador del grupo F,comision 174, del 2023"
-    />
-    <!--Aqui estan el nombre de la pag y el favicon que aparece en la barra del navegador-->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="Images/MDS-Favicon.jpg"
-    />
+    <meta name="keywords" content="Dance, Danzas, Estudio de baile, clases de baile"/>
+    <meta name="description" content="Escuela de danza, bailes, profesor de danza, ritmos" />
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/MDS-Favicon.jpg" />
     <title>DS DanceStudio</title>
-    <!-- Son las dos fuentes de google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- aca el link a la hoja de estilos-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="stylesheet.css" />
     <!-- para enviar datos a traves de EmailJS-->
     <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
@@ -44,17 +19,9 @@
       emailjs.init('3s-UuRoTpmNZFFBHa');
       })();
     </script>
-
-
-   
   </head>
-
-
   <body>
     <header>
-      <!--Esto corresponde a la barra negra de navegacion, los items del menu de busqueda 
-      y el ícono de la marca, claro que esta pueso nomas, hay q darle forma...
-    capaz podemos agregar aqui lo de la clase 11 que se corto del bootstrap -->
       <!--INCIO NAVBAR-->
       <nav class="menu" id="menu">
         <img hight="100" a href="https://imgbb.com/"><img src="https://i.ibb.co/bKYn715/Modern-Dance-Studio-blanco-02.png" alt="Modern-Dance-Studio-logo"></a>
@@ -66,8 +33,6 @@
         </ul>
       </nav>
     </header>
-    <!--esta el la imagen de inicio grande, habria que agregar un algo para marcar que escroleen
-una linda flechita, o algo...-->
     <main>
       <div id="HOME" class="Home-Img">
         <img hight="400" a href="https://ibb.co/gtBwkMh"><img src="https://i.ibb.co/Yfq8H7w/Home-3.png" alt="Imagen Home"></a>
@@ -75,12 +40,8 @@ una linda flechita, o algo...-->
 
       <div>
         <h1>Escuela de danza para todas las edades</h1>
-        <!--agrego un h2 aca, encontre q en el h1 es mejor describir de que va la pag ,
-           para el CEO, asi q cambie los textos para que vaya mejor, 
-        -->
         <h2 class="Home-subtitulo">Elige como quieres moverte</h2>
       </div>
-
       <!-- ventana jazz -->
     <div id="danza-jazz-info" class="ventana">
       <div class="ventana-content">
@@ -96,7 +57,6 @@ una linda flechita, o algo...-->
         <img class="bailes" src="./Images/danza-jazz.jpg" alt="Danza Jazz" />
       </div>
     </div>
-
     <!-- ventana ritmo urbano -->
     <div id="ritmo-urbano-info" class="ventana">
       <div class="ventana-content">
@@ -115,7 +75,6 @@ una linda flechita, o algo...-->
         />
       </div>
     </div>
-
     <!-- ballet -->
     <div id="ballet-info" class="ventana">
       <div class="ventana-content">
@@ -131,7 +90,6 @@ una linda flechita, o algo...-->
         <img class="bailes" src="./Images/ballet.jpg" alt="Ballet" />
       </div>
     </div>
-
     <!-- jazz contemporaneo -->
     <div id="jazz-contemporaneo-info" class="ventana">
       <div class="ventana-content">
@@ -151,7 +109,6 @@ una linda flechita, o algo...-->
         />
       </div>
     </div>
-
     <!-- principiantes-->
     <div id="principiantes-info" class="ventana">
       <div class="ventana-content">
@@ -170,7 +127,6 @@ una linda flechita, o algo...-->
         />
       </div>
     </div>
-
     <!-- Entrenamientos -->
     <div id="entrenamientos-info" class="ventana">
       <div class="ventana-content">
@@ -190,7 +146,6 @@ una linda flechita, o algo...-->
         />
       </div>
     </div>
-
     <!-- Desplegable -->
     <div class="desplegable">
       <button class="desple_btn">ESTILOS DE BAILES</button>
@@ -211,32 +166,8 @@ una linda flechita, o algo...-->
           >Entrenamientos</a
         >
       </div>
-    </div>
-    
+    </div>    
     <!-- fin menu ventana desplegable -->
-
-      <!--este es el primer segmento de texto e imagen. el botón deberia ser 
-  un ancla hacia el formulario, o creo mejor, hacia las imagenes donde se ven los cursos -->
-
-      <!--Separo en dos div y cambio Id x Class NOSOTROS VIEJO
-      <div id="NOSOTROS" class="NOSOTROS">
-        <div class="nos">
-          <h2>Todas las disciplinas de baile</h2>
-          <h3>Studio Dance es para Vos!</h3>
-          <p>
-            Somos un estudio de danza que nació con el objetivo de dar rienda
-            suelta a tu pasión. En STUDIO DANCE tenemos clases para todo
-            público, sin límite de edad, en diferentes estilos y niveles. Si
-            nunca bailaste o si ya tenes experiencia y queres seguir entrenando,
-            en ambos casos hay clases para vos. ¡Te esperamos, siempre en
-            movimiento!
-          </p>
-          <button><a href="#CONTACTO">Escríbenos!</a></button>
-        </div>
-        <div>
-          <img class="Imagen-2" a href="https://ibb.co/d76qG4f"><img src="https://i.ibb.co/R7PmzTg/imagen-2.png" alt="Joven bailando"></a>
-        </div>-->
-        <!--agrego div-->
       </div>
       <div id="NOSOTROS" class="NOSOTROS"> 
 
@@ -264,9 +195,6 @@ una linda flechita, o algo...-->
           </div>
       
         </div>
-    <!--este es el div de los 3 iconos naranjas q en el figma estan uno al lado del otro, 
-  hay q ver la clase 10 donde muestra como hacer eso, seria un class y  unos alinear?-->
-
   <div id="SERVICIOS">
         
     <div class="CajaTituloCentrado">
@@ -283,24 +211,20 @@ una linda flechita, o algo...-->
               </div>
               <div class="TextoCards">
                 <h3>Encontrá al Profesor ideal de danza Urbana en Buenos Aires</h3>
-                     <p>
-                      Consultá libremente los perfiles en Buenos Aires y contactá al mas
-                   indicado según tus criterios tarifas, títulos, opiniones, clases de
-                   Danza urbanas a domicilio o vía webcam.
-                     </p>
+                  <p>Consultá libremente los perfiles en Buenos Aires y contactá al mas indicado según tus criterios tarifas, títulos, opiniones, clases de Danza urbanas a domicilio o vía webcam.
+                  </p>
               </div>
-            </div>
-            <div class="Caja1">
+              </div>
+              <div class="Caja1">
               <div class="ImagenCards">
               <img id="Imagen-b" a href="https://imgbb.com/"><img src="https://i.ibb.co/kXN9Mvp/icono-aaa-blanco.png" alt="icono Clases particulares"></a>
               </div>
               <div class="TextoCards">
                 <h3>Organizá tus clases particulares de Danza en Buenos Aires</h3>
-                     <p>
-                      Enviá de pedidos de clases a los profesores de todos los ritmos
+                  <p>Enviá de pedidos de clases a los profesores de todos los ritmos
                       para indicarles tus necesidades y disponibilidad. Accedé en forma
                       ilimitada a contactarlos con tu Pase Alumno Mensual.
-                     </p>
+                  </p>
               </div>
             </div>
             <div class="Caja1">
@@ -309,18 +233,14 @@ una linda flechita, o algo...-->
               </div>
               <div class="TextoCards">
                 <h3>Viví nuevas experiencias, y disfrutá de tu tiempo de la mejor manera.</h3>
-                    <p>
-                      El increible Pase Alumno te da acceso ilimitado a todos los
-                      profesores, coaches y Masters Class en Buenos Aires o a distancia
-                      durante un mes. Todo un mes para descubrir las nuevas pasiones con
-                      personas fabulosas.
-                    </p>
+                  <p>El increible Pase Alumno te da acceso ilimitado a todos los
+                    profesores, coaches y Masters Class en Buenos Aires o a distancia
+                    durante un mes. Todo un mes para descubrir las nuevas pasiones con
+                    personas fabulosas.
+                  </p>
               </div>
             </div>
           </div>
-             <!--aca es la otra imagen, la del chico de negro con el texto debajo, 
-         hay que redactar algo para poner ahi-->
-         
 <div id="BENEFICIOS">
 
   <div class="contenedor-2-Columnas">
@@ -339,15 +259,13 @@ una linda flechita, o algo...-->
           dentro de Argentina y en otras ciudades del mundo (como Nueva York o Sao Paulo), 
           permitiendo que los alumnos continúen su perfeccionamiento con las experiencias másbenriquecedoras.
           Nuestros docentes también han sido invitados a dictar clases en el extranjero.
-         </p>
+        </p>
       </div>
         <button><a href="#CONTACTO">Escríbenos!</a></button>  
     </div>
 
   </div>
 </div>
-        <!-- este es el div de las tres fotos serian como los cursos q se dan, hay que inventar
-          algo de texto para poner aqui-->
           <div id="NUESTROS-CURSOS">
 
             <div class="CajaTituloCentrado2">
@@ -355,7 +273,6 @@ una linda flechita, o algo...-->
             </div>
   
             <div id="contenedor-3-columnas-2" class="contenedor-3-Columnas-2">  
-           
               <div class="Caja1">
                 <div class="ImagenCards2">
                   <img id="Foto-1" a href="https://imgbb.com/"><img src="https://i.ibb.co/Sr3Tx2f/foto-1.jpg" alt="Grupo de jovenes bailando rap"></a>
@@ -389,7 +306,7 @@ una linda flechita, o algo...-->
               <div class="ImagenCards2">
               <img id="Imagen-2" a href="https://imgbb.com/"><img src="https://i.ibb.co/0qTKtS4/foto-3.jpg" alt="Pareja mayor bailando felizmente"></a>
               </div>
-             <div class="TextoCards">
+            <div class="TextoCards">
               <h3>Más de 120 clases por semana, 60 estilos distintos para elegir!</h3>
                 <p>
                   Hay clases para todos los niveles, desde principiantes que nunca 
@@ -399,12 +316,7 @@ una linda flechita, o algo...-->
               </div>
             </div>
           </div>
-     
       <!-- Comienza formulario de contacto corregido 11/04/2023!-->
-            <!--Ya esta perfecto el formulario,
-               lo probé y funciona, me llegan los mails, 
-               creé una cuenta en "EmailJS"-->
-
       <div id="CONTACTO" class="CONTACTO">
         <h2>Si!, Quiero saber más!</h2>
           
@@ -429,12 +341,7 @@ una linda flechita, o algo...-->
       
         </form>
       </div>
-      
-   <!---- </main>-->
-
-    <!--aca empieza el footer, tambien hay q armar texto inventado y armarlo... 
-  los textos los armamos primero en FIGMA, para poder copiar y pegarlos aca, mas facil-->
-    <!--Agregado de iconons redes y ubicacion-->
+    <!--Footer-->
     <footer class="footer">
       <img
         class="imgfoo"

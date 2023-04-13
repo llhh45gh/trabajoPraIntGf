@@ -11,10 +11,6 @@ footer {
   background-color: black;
   text-align: center;
 }
-/*
-body{
-    
-}*/
 
 /* Menu horizontal */
 
@@ -227,24 +223,6 @@ button:hover {
 
 /*fin ventana flotante*/
 
-/*NOSOTROS-viejo
-.Imagen-2 {
-  width: 500px;
-  float: right;
-  height: 50%;
-}
-
-.NOSOTROS {
-  display: inline-block;
-  width: 50%;
-  margin-left: 130px;
-  margin-top: 100px;
-}
-
-.nos {
-  width: 70%;
-}
-*/
 /* FORMULARIO */
 
 form {
@@ -298,11 +276,7 @@ input[type="button"]:hover {
   color: red;
 }
 
-/* */
 #NUESTROS-CURSOS {
-  /*aca dejo para hacer degradado de color, pero no me funciona; asi q lo saque del FIGMA
-la linea background attachment:fixed hace q el degradado se ajuste dinamicamente al tamaño de la pag
-lo mismo que la imagen principal*/
   background: linear-gradient(top #ff9933, bottom #000000);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -420,10 +394,6 @@ lo mismo que la imagen principal*/
 .ImagenCards2 {
   display: flex;
   justify-content: flex-start;
-  /*averiguar como hacer 100% q 
-  ocupe la imagen el ancho de caja
-  tambien investigar si se puede algun efecto a la imagen
-  que al pasar el mouse se haga como un zoom o algo*/
 }
 
 /*Beneficios y nosotrso pero al reves)*/
