@@ -1,3 +1,7 @@
+(function(){
+  emailjs.init('3s-UuRoTpmNZFFBHa');
+})();
+
 //inicio script de ventana flotante//
 function openVentana(ventanaId) {
   const ventana = document.getElementById(ventanaId);
@@ -21,6 +25,20 @@ function openVentana(ventanaId) {
     }
   }
 }
+
+//desplazamiento del boton Escribenos a la seccion Contacto//
+const boton1 = document.getElementById('boton1');
+const boton2 = document.getElementById('boton2');
+
+const contacto = document.getElementById('CONTACTO');
+
+boton1.addEventListener('click', () => {
+  contacto.scrollIntoView({ behavior: 'smooth' });
+});
+boton2.addEventListener('click', () => {
+  contacto.scrollIntoView({ behavior: 'smooth' });
+});
+
 
 //fin ventana flotante//  
 
