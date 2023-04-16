@@ -410,6 +410,17 @@ label {
   display: flex;
   justify-content: flex-start;
 }
+.NOSOTROS {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.BENEFICIOS {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
 /*Beneficios y nosotrso pero al reves)*/
 
@@ -442,3 +453,6 @@ label {
 .TextoCards2-Columnas-p {
   width: 400px;
 }
+
+
+
