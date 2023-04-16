@@ -226,14 +226,18 @@ button:hover {
 /* FORMULARIO */
 
 form {
-  margin-bottom: 20px;
+  display: flex;
+	flex-direction: column;		
+  align-items: left;
+
+  /* margin-bottom: 20px; */
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-  width: 70%;
+  width:70%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -244,10 +248,18 @@ textarea {
 
 input[type="button"] {
   background-color: #ff9933;
-  padding: 10px 30px;
+  padding: 10px 0px;
   border-radius: 2px;
   margin-bottom: 20px;
   border: transparent;
+  cursor: pointer;
+  width: 100px;
+}
+
+input[type="button"]:hover {
+  background-color: #ffffff;
+  border: 2px solid #ff9933;
+  color: #0f0e0e;
 }
 
 .CONTACTO {
@@ -262,14 +274,17 @@ input[type="button"] {
 }
 
 .campo {
+  width: 70%;
+  padding: 12px 0px 24px 0px;
+  margin: 6px;
   font-size: 10px;
   color: red;
 }
 
-input[type="button"]:hover {
-  background-color: #ffffff;
-  border: 2px solid #ff9933;
-  color: #0f0e0e;
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .red {
